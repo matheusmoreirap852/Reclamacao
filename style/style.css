@@ -1,0 +1,216 @@
+.body-style {
+    max-width: 100%;
+    padding-bottom: 35px;
+}
+
+.header-style {
+    border: 1px solid #f9faec;
+}
+
+
+.header-style ul{
+    display: block;
+    text-decoration: none;
+
+}
+
+.header-style ul li {
+    display: inline-block;
+    font-size: 25px;
+    color: .header-style
+    font-style: normal;
+}
+.Banner{
+    max-width:100%;
+    height: 500px;
+}
+
+.sesc-Formulario{
+    max-width: 100%;
+    font-size: 19px;
+    padding: 100px;
+}
+
+    .sesc-Formulario h2 {
+        font-size: 25px;
+        color: #004c99;
+        margin-bottom: 25px;
+    }
+
+.primary-button {
+    order-radius: 5px;
+    padding: 10px 20px;
+    background-color: #004c99;
+    text-decoration: none;
+    color: #fff;
+    margin-top: 20px;
+    float: left;
+}
+
+.Button-envioMensagem {
+    width: 100%;
+    background: red;
+    display: block;
+}
+
+span.dark, span.gold {
+    width: 100%;
+    padding: 10px;
+    display: block;
+    font-size: 1rem;
+    padding-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    padding-right: 30px;
+}
+
+span.dark {
+    color: white;
+    background: #747678;
+    width: 100%;
+    margin: 1rem 0 0;
+    font-weight: 300;
+    float: left;
+    padding: 10px;
+    display: block;
+    font-size: 1.42rem;
+    border-radius: 8px;
+    cursor: pointer;
+    height: 50px;
+}
+
+span.dark:hover {
+    background-color: #004c99;
+}
+
+
+
+.mb-0, .my-0 {
+    margin-bottom: 0!important;
+}
+
+.Titulo2 {
+    display: block;
+    width: 100%;
+    color: #004c99;
+    padding: 5px;
+    text-align:left;
+    background:RED;
+    margin
+}
+    .Titulo2 h2 {
+        display: block;
+        width: 100%;
+        color: #004c99;
+        padding: 5px;
+        text-align: left;
+        background: RED;
+    }
+
+
+#titulo-formulario-2{
+
+}
+    #titulo-formulario-2 h3 {
+        display: block;
+        text-align: left;
+        color: #004c99;
+    }
+
+    .mt-2 {
+        width: 100%;
+        display: block;
+        margin-top: 2px;
+    }
+
+
+div.open-close {
+    width: 100%;
+}
+
+div.open-close {
+    display: block;
+    float: left;
+    width: 100%;
+    border: solid 1px #737678;
+    border-radius: 0 0 8px 8px;
+    border-top: none;
+}
+
+.valores-style{
+    padding: 2px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+
+.botoes {
+    text-align: center;
+    display: block;
+    font-family: "open_sanscondensed_light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: #f00;
+    padding: 20px 10px;
+    min-height: 280px;
+    color: #fff;
+}
+
+.botoes-denuncia {
+    background-color: #fc6e51;
+    border: 1px solid #e9573f;
+    padding: 2px;
+    margin-top: 1px;
+}
+.botoes-reclamacao {
+    background-color: #f0ad4e;
+    border-color: #eea236;
+    padding: 2px;
+}
+
+.botoes-elogio {
+    background-color: #a0d468;
+    border: 1px solid #8cc152;
+    padding: 2px;
+    margin-top: 1px;
+}
+
+.botoes-sugestao {
+    background-color: #5d9cec;
+    border: 1px solid #4a89dc;
+    padding: 2px;
+    margin-top: 1px;
+}
+
+.list-unstyled {
+    display: none;
+    padding-left: 0;
+    list-style: none;
+
+}
+
+.open-close ul li {
+    display:inline-block;
+
+}
+
+list-unstyled li {
+    display: inline-block;
+}
+
+.form-ouvidoria{
+    padding: 50px;
+}
+
+
+footer {
+    left: 0;
+    margin-top: 50px;
+    bottom: 0;
+    width: 100%;
+    height: 30px;
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+
