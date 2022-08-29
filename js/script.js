@@ -10,7 +10,7 @@ function exibeDivPessoaFisica() {
     $(".campoPessoaJuridica").val("");
 }
 
-
 function AbriReclamacao() {
-    alert("valores");
+    var divNone = document.getElementById("formReclamacao");
+    divNone.style.display = "block";
 }
