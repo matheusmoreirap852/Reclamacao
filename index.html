@@ -18,22 +18,26 @@
     <header class="header-style">
         <ul class="list-header-style">
             <li><img src="imagem/sescSenacLogo.png" alt="Alternate Text" /></li>
-            <li>Fale conosco</li>
+            
         </ul>
     </header>
     <div class="Banner">
         <img src="imagem/BannerFaleConosco.jpg" width="100%"  alt="Banner"/>
     </div>
     <div class="sesc-Formulario">
-        <h2>Deixe sua mensagem que muito em breve retornaremos o seu contato!</h2>
+        <h2>Deixe sua mensagem que em breve retornaremos o seu contato!</h2>
         <form action="/" method="post">
             <div>
+                <label>Nome</label>
+                <input type="text" value="Campo obrigatório" data-msg-required="Entre com seu Nome." class="form-control" name="Nome" id="contact_Nome">
+            </div>
+            <div>
                 <label>E-mail</label>
-                <input type="text" value="" data-msg-required="Entre com seu Email." class="form-control" name="E-mail" id="contact_email">
+                <input type="text" value="Campo obrigatório" data-msg-required="Entre com seu Email." class="form-control" name="E-mail" id="contact_email">
             </div>
             <div>
                 <label>Telefone</label>
-                <input type="text" value="" data-msg-required="Entre com seu telefone." class="form-control" name="Telefone" id="contact_telefone">
+                <input type="text" value="Campo obrigatório" data-msg-required="Entre com seu telefone." class="form-control" name="Telefone" id="contact_telefone">
             </div>
             <div class="Unidade">
                 <label>Unidades</label>
@@ -48,12 +52,7 @@
                     <option value="Aparecida de Goiânia " rel="Aparecida de Goiânia ">
                         Aparecida de Goiânia
                     </option>
-                    <!--<option value="Goiania - CEP Elias Bufaiçal" rel="Goiania - CEP Elias Bufaiçal">
-                        Goiania - CEP Elias Bufaiçal
-                    </option>
-                    <option value="Goiania - CEP Cora coralina" rel="Goiania - CEP Cora coralina">
-                        Goiania - CEP Elias Bufaiçal Cora coralina
-                    </option>-->
+
                     <option value="Caldas Novas" rel="Caldas Novas ">
                         Caldas Novas
                     </option>
@@ -63,11 +62,17 @@
                     <option value="Ceres" rel="Ceres">
                         Ceres
                     </option>
+                    <option value="Goiânia - CEP Elias Bufaiçal" rel="Goiania - CEP Elias Bufaiçal">
+                        Goiania - CEP Elias Bufaiçal
+                    </option>
+                    <option value="Goiânia - CEP Cora Coralina" rel="Goiania - CEP Cora Coralina">
+                        Goiânia - CEP Cora Coralina
+                    </option>
+                    <option value="Goiânia - Senac Infinite" rel="Goiânia - Senac Infinite">
+                        Goiânia - Senac Infinite
+                    </option>
                     <option value="Goiânia - Escola de Idiomas Sesc Senac" rel="Goiânia - Escola de Idiomas Sesc Senac">
                         Goiânia - Escola de Idiomas Sesc Senac
-                    </option>
-                    <option value="Goiânia - Setor Aeroporto" rel="Goiânia - Setor Aeroporto">
-                        Goiânia - Setor Aeroporto
                     </option>
                     <option value="Ipamerí" rel="Ipamerí">
                         Ipamerí
@@ -112,17 +117,29 @@
                 <label>Assunto</label>
                 <select name="Assunto" id="Assunto" class="form-control validate[required]" style="overflow: auto">
                     <option value="">Selecione</option>
-                    <option value="Cultura" rel="Cultura">
-                        Cultura
+                    <option value="Fotografia" rel="Fotografia">
+                        Fotografia
                     </option>
-                    <option value="Educação" rel="Educação">
-                        Educação
+                    <option value="Beleza" rel="Beleza">
+                        Beleza
                     </option>
-                    <option value="Lazer" rel="Lazer">
-                        Lazer
+                    <option value="Gastronomia" rel="Gastronomia">
+                        Gastronomia
+                    </option>
+                    <option value="Gestão" rel="Gestão">
+                        Gestão
+                    </option>
+                    <option value="Idiomas" rel="Idiomas">
+                        Idiomas
+                    </option>
+                    <option value="Moda" rel="Moda">
+                        Moda
                     </option>
                     <option value="Saúde" rel="Saúde">
                         Saúde
+                    </option>
+                    <option value="Informática" rel="Informática">
+                        Informática
                     </option>
                 </select>
             </div>
@@ -151,11 +168,9 @@
                 <h3> Nao achou o que procurava?</h3>
             </div>
             <div class="mt-12">
-                <span class="dark"> Entre em contato atraves do telefone ou e-mail <i class="fa fa-envelope"></i>    <i class="fa fa-phone"></i></span>
+                <span class="dark"> Entre em contato atraves do telefone  <i class="fa fa-phone"></i></span>
                 <div class="open-close center" style="display: block;">
-                    <div class="valores-style"><i class="fa fa-phone"></i> 0800 645 5454</div>
-                    <div class="valores-style"><i class="fa fa-phone"></i> (48) 3251 4627</div>
-                    <div class="valores-style"><i class="fa fa-envelope"></i>  faleconosco@sesc-sc.com.br</div>
+                    <div class="valores-style"><i class="fa fa-phone"></i> (62) 3219-5180</div>
                 </div>
             </div>
         </div>
@@ -164,7 +179,7 @@
     <div id="reclamacao-envio-style" class="sesc-Formulario">
         <div class="mt-2">
             <div class="mt-12">
-                <span class="dark">Ouvidoria, deseja realizar uma denúncia, elogio, reclamação ou sugestão ?  <i class="fa fa-envelope"></i></span>
+                <span class="dark">Deseja realizar uma denúncia, elogio, reclamação ou sugestão ? Acesse o nosso Canal de Ouvidoria </span>
                 <div class="open-close center" style="display: block;">
                     <ul class="list-unstyled">
                         <li onclick="AbriReclamacao(1)" class="col-xs-12 col-sm-6 col-md-2 col-lg-2 w20p">
@@ -180,7 +195,7 @@
                             <a href="#formReclamacao" class="botoes botoes-elogio" accesskey="l"><em><i class="fa fa-comment-o" aria-hidden="true"></i></em><br><strong class="ajustar_fonte"> ELOGIO <br></strong><span>Clique aqui e <br> faça uma Elogio.</span> </a>
                         </li>
                         <li onclick="AbriReclamacao(5)" class="col-xs-12 col-sm-6 col-md-2 col-lg-2 w20p">
-                            <a href="https://v1.go.senac.br/denuncias/" class="botoes botoes-admin" accesskey="l"><em><i class="fa fa-comment-o" aria-hidden="true"></i></em><br><strong class="ajustar_fonte"> Fale com o presidente <br></strong><span>Clique aqui e <br> Fale com o presidente.</span> </a>
+                            <a href="https://v1.go.senac.br/denuncias/" class="botoes botoes-admin" accesskey="l"><em><i class="fa fa-comment-o" aria-hidden="true"></i></em><br><strong class="ajustar_fonte">Presidente da Fecomércio <br></strong><span>Clique aqui e <br> Fale com o Presidente.</span> </a>
                         </li>
                     </ul>
                     <form action="/" method="post" id="formReclamacao" class="form-ouvidoria form-ouvidoria-mb">
@@ -196,6 +211,10 @@
                         <div class="mt-3">
                             <label>Assunto</label>
                             <input type="text" value="" data-msg-required="Assunto" class="form-control contact_assunto" name="Assunto" id="contact_assunto">
+                        </div>
+                        <div>
+                            <label>Nome</label>
+                            <input type="text" value="" data-msg-required="Entre com seu Nome." class="form-control" name="Nome" id="contact_Nome">
                         </div>
                         <div class="mt-3">
                             <label>E-mail</label>
