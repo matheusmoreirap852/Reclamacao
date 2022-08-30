@@ -1,6 +1,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <title>Fale conosco </title>
+
     <meta http-equiv=”Content-Type” content=”text/html; charset=utf-8″>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
@@ -107,8 +108,23 @@
                 </select>
             </div>
             <div class="Assunto">
+                
                 <label>Assunto</label>
-                <input type="text" class="form-control" name="name" value="" data-msg-required="Entre com seu assunto" />
+                <select name="Assunto" id="Assunto" class="form-control validate[required]" style="overflow: auto">
+                    <option value="">Selecione</option>
+                    <option value="Cultura" rel="Cultura">
+                        Cultura
+                    </option>
+                    <option value="Educação" rel="Educação">
+                        Educação
+                    </option>
+                    <option value="Lazer" rel="Lazer">
+                        Lazer
+                    </option>
+                    <option value="Saúde" rel="Saúde">
+                        Saúde
+                    </option>
+                </select>
             </div>
             <div class="Titulo">
                 <label>Titulo</label>
@@ -151,19 +167,19 @@
                 <span class="dark">Ouvidoria, deseja realizar uma denúncia, elogio, reclamação ou sugestão ?  <i class="fa fa-envelope"></i></span>
                 <div class="open-close center" style="display: block;">
                     <ul class="list-unstyled">
-                        <li onclick="AbriReclamacao()" class="col-xs-12 col-sm-6 col-md-2 col-lg-2 w20p">
+                        <li onclick="AbriReclamacao(1)" class="col-xs-12 col-sm-6 col-md-2 col-lg-2 w20p">
                             <a href="#formReclamacao" onclick="AbriReclamacao()" class="botoes botoes-denuncia" accesskey="n"><em><i class="fa fa-bullhorn" aria-hidden="true"></i></em><br><strong class="ajustar_fonte">DENÚNCIA <br></strong> <span>Clique aqui e <br>faça uma denúncia.</span> </a>
                         </li>
-                        <li onclick="AbriReclamacao()" class="col-xs-12 col-sm-6 col-md-2 col-lg-2 w20p">
+                        <li onclick="AbriReclamacao(2)" class="col-xs-12 col-sm-6 col-md-2 col-lg-2 w20p">
                             <a href="#formReclamacao" onclick="AbriReclamacao()" class="botoes botoes-reclamacao" accesskey="l"><em><i class="fa fa-comment-o" aria-hidden="true"></i></em><br><strong class="ajustar_fonte">RECLAMAÇÃO <br></strong> <span>Clique aqui e <br> e faça uma reclamação.</span> </a>
                         </li>
-                        <li onclick="AbriReclamacao()" class="col-xs-12 col-sm-6 col-md-2 col-lg-2 w20p">
+                        <li onclick="AbriReclamacao(3)" class="col-xs-12 col-sm-6 col-md-2 col-lg-2 w20p">
                             <a href="#formReclamacao" onclick="AbriReclamacao()" class="botoes botoes-sugestao" accesskey="l"><em><i class="fa fa-comment-o" aria-hidden="true"></i></em><br><strong class="ajustar_fonte">SUGESTÃO <br></strong> <span>Clique aqui e <br> e faça uma sugestão.</span> </a>
                         </li>
-                        <li onclick="AbriReclamacao()" class="col-xs-12 col-sm-6 col-md-2 col-lg-2 w20p">
+                        <li onclick="AbriReclamacao(4)" class="col-xs-12 col-sm-6 col-md-2 col-lg-2 w20p">
                             <a href="#formReclamacao" class="botoes botoes-elogio" accesskey="l"><em><i class="fa fa-comment-o" aria-hidden="true"></i></em><br><strong class="ajustar_fonte"> ELOGIO <br></strong><span>Clique aqui e <br> faça uma Elogio.</span> </a>
                         </li>
-                        <li onclick="AbriReclamacao()" class="col-xs-12 col-sm-6 col-md-2 col-lg-2 w20p">
+                        <li onclick="AbriReclamacao(5)" class="col-xs-12 col-sm-6 col-md-2 col-lg-2 w20p">
                             <a href="#formReclamacao" class="botoes botoes-admin" accesskey="l"><em><i class="fa fa-comment-o" aria-hidden="true"></i></em><br><strong class="ajustar_fonte"> Fale com o presidente <br></strong><span>Clique aqui e <br> Fale com o presidente.</span> </a>
                         </li>
                     </ul>
@@ -176,6 +192,10 @@
                                 <option value="reclamação">Reclamação</option>
                                 <option value="sugestão">Sugestão</option>
                             </select>
+                        </div>
+                        <div class="mt-3">
+                            <label>Assunto</label>
+                            <input type="text" value="" data-msg-required="Assunto" class="form-control contact_assunto" name="Assunto" id="contact_assunto">
                         </div>
                         <div class="mt-3">
                             <label>E-mail</label>

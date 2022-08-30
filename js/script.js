@@ -1,16 +1,21 @@
-function exibeDivPessoaFisica() {
-    var divShow = document.getElementById("FormularioShow");
-    divShow.style.display = "block";
-    var divNone = document.getElementById("PessoaFisicaNone");
-    divNone.style.display = "none";
-    var divShowFisica = document.getElementById("PessoaJuridicaNoneFisica");
-    divShowFisica.style.display = "block";
-    $(".campoPessoaFisica").prop('required', true);
-    $(".campoPessoaJuridica").prop('required', false);
-    $(".campoPessoaJuridica").val("");
-}
 
-function AbriReclamacao() {
+
+function AbriReclamacao(val) {
+
+    document.getElementById("contact_assunto").disabled = true;
+
+    if (val == 1) {
+        document.getElementById("contact_assunto").value = "DENUNCIA";
+    }
+    else if (val == 2) {
+        document.getElementById("contact_assunto").value = "RECLAMACAO";
+    }
+    else if (val == 3) {
+        document.getElementById("contact_assunto").value = "SUGESTAO";
+    }
+    else if (val == 4) {
+        document.getElementById("contact_assunto").value = "ELOGIO";
+    }
     var divNone = document.getElementById("formReclamacao");
     divNone.style.display = "block";
 }
