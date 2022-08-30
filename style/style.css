@@ -20,16 +20,20 @@
     color: .header-style
     font-style: normal;
 }
-.Banner{
-    max-width:100%;
-    height: 500px;
-}
-
-.sesc-Formulario{
+.Banner {
     max-width: 100%;
-    font-size: 19px;
-    padding: 50px;
+    background: #004c99;
 }
+    .Banner img {
+        opacity: 80%;
+    }
+    
+
+    .sesc-Formulario {
+        max-width: 100%;
+        font-size: 19px;
+        padding: 50px;
+    }
 
     .sesc-Formulario h2 {
         font-size: 25px;
@@ -111,8 +115,10 @@ span.dark {
     }
 
 
-#titulo-formulario-2{
 
+
+
+#titulo-formulario-2 {
 }
     #titulo-formulario-2 h3 {
         display: block;
